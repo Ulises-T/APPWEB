@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú despegable</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+
+    <!--Barra de navegación Horizontal-->
+
+    <nav class="nav-horizontal">
+
+        <div class="logo-inst">
+            <img class="img-logo" src="assets/logo-inst.jpg" alt="">
+        </div>
+
+        <div class="nombre-empresa">
+            <h2>Mi Negocio</h2>
+        </div>
+
+        <div class="tools">
+            <img src="assets/calendar.svg" alt="">
+            <img src="assets/printer.svg" alt="">
+            <img src="assets/dollar.svg" alt="">
+            <img src="assets/calculator.svg" alt="">
+        </div>
+
+        <div class="usuario">
+            <img src="assets/user-check.svg" class="list__img">
+            <h5>Ulises.t</h5>
+        </div>
+
+    </nav>
+
+     <!--Barra de navegación Vertical-->
+
+    <nav class="nav">
+
+        <ul class="list">
+
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="assets/dashboard.svg" class="list__img">
+                    <a href="#" class="nav__link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/cart-download.svg" class="list__img">
+                    <a href="#" class="nav__link">Ventas</a>
+                    <img src="assets/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Pedidos</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Lista de Precios</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Cuentas Corrientes</a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/receipt.svg" class="list__img">
+                    <a href="#" class="nav__link">Facturación</a>
+                    <img src="assets/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Facturación</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Notas de Débitos</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Notas de Creditos</a>
+                    </li>
+                </ul>
+
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/id-card.svg" class="list__img">
+                    <a href="#" class="nav__link">Gestión Clientes</a>
+                    <img src="assets/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Clientes</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Nuevo Cliente</a>
+                    </li>
+                </ul>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/docs.svg" class="list__img">
+                    <a href="#" class="nav__link">Gestión Proveedores</a>
+                    <img src="assets/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Orden de Compra</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Proveedores</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Nuevo Proveedor</a>
+                    </li>
+                </ul>
+
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/component.svg" class="list__img">
+                    <a href="#" class="nav__link">Productos</a>
+                    <img src="assets/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Stock</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Ingreso Stock</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Ajustes Stock</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Productos</a>
+                    </li>
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Nuevo Producto</a>
+                    </li>
+                </ul>
+
+            </li>
+
+
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="assets/stats.svg" class="list__img">
+                    <a href="#" class="nav__link">Estadisticas</a>
+                </div>
+            </li>
+
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/bell.svg" class="list__img">
+                    <a href="#" class="nav__link">Notificaciones</a>
+                    <img src="assets/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Estoy dentro</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Estoy dentro</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Estoy dentro</a>
+                    </li>
+                </ul>
+
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="assets/user-check.svg" class="list__img">
+                    <a href="#" class="nav__link">Gerecia</a>
+                    <img src="assets/arrow.svg" class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Reportes</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Administrar Usuarios</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Nuevo Usuario</a>
+                    </li>
+                </ul>
+
+
+
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="assets/message.svg" class="list__img">
+                    <a href="#" class="nav__link">Contacto</a>
+                </div>
+            </li>
+
+        </ul>
+    </nav>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
